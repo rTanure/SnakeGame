@@ -99,6 +99,8 @@ const detectBoddyColision = () => {
 }
 
 const resetGame = ()=>{
+    score = 0
+    scoreBox.innerHTML = "Score: " + score
     fruitCoords = []
     snakeBody = [
         {
